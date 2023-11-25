@@ -121,20 +121,20 @@
       if ("card_req-link" === t.className) {
         e.preventDefault();
         const r = t.href;
-        n.data = "".concat(r)
+        n.src = "".concat(r)
       } else if ("card_req-link2" === t.className) {
         e.preventDefault();
         const n = t.href;
-        c.data = "".concat(n)
+        c.src = "".concat(n)
       } else if ("card_req-link3" === t.className) {
         e.preventDefault();
         const n = t.href;
-        i.data = "".concat(n)
+        i.src = "".concat(n)
       } else {
         if ("card_req-link4" !== t.className) return; {
           e.preventDefault();
           const n = t.href;
-          o.data = "".concat(n)
+          o.src = "".concat(n)
         }
       }
     })
